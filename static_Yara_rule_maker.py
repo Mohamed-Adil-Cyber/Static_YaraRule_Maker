@@ -164,6 +164,7 @@ def caves():
     file.write("import \"hash\""+'\n'
       +"import \"pe\""+'\n'
       +"import \"math\""+'\n'
+      +"import \"hash\""+'\n'         
       +"rule "+exe.replace('-','').replace('/ ','').replace(' ','')+'\n'
       +"{\n"+
       ' meta:\n'+
